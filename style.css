@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E5E5;
+
+}
+
+.container-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 577px;
+    width: 584px;
+    background-color: white;
+    border-radius: 16px;
+    box-shadow: 5px 5px 5px 5px gray;
+
+}
+
+.in-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 407px;
+    width: 414px;
+
+
+}
+
+h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    color: #132B50;
+
+}
+
+.image-box {
+    display: flex;
+    align-items: center;
+    width: 414px
+}
+
+.image img {
+    height: 78px;
+    width: 78px;
+    border-radius: 50%;
+    border: 2px solid #132B50;
+    margin-right: 16px;
+
+}
+
+.image-title h4 {
+    margin-bottom: 4px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #132B50;
+
+}
+
+.image-title h3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: #132B50;
+
+}
+
+p {
+    margin-bottom: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #132B50;
+
+}
+
+
+
+.password {
+    display: flex;
+    align-items: center;
+}
+
+.password label {
+    display: flex;
+    align-items: center;
+    width: 371px;
+    height: 59px;
+    border: 1px solid #132B50;
+    border-radius: 8px;
+}
+
+.password svg {
+    margin-left: 15px;
+}
+
+.password input {
+    margin-top: 6px;
+    border: none;
+    outline: none;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #132B50;
+
+}
+
+.foter {
+    margin-top: 32px;
+    display: flex;
+    align-items: center;
+
+
+
+}
+
+.foter button {
+    width: 103px;
+    height: 51px;
+    margin-left: 90px;
+    border-radius: 8px;
+    background-color: #132B50;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+
+
+}
+
+.foter span {
+    margin-left: 8px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #132B50;
+}
+
+.sign-status .checkbox {
+    display: flex;
+    position: relative;
+    align-items: center;
+    height: 36px;
+    width: 60px;
+    border-radius: 44px;
+    border: 1px solid #132B50;
+    cursor: pointer;
+    background-color: white;
+
+
+
+
+}
+
+.sign-status .checkbox .check-btn {
+    position: absolute;
+    left: 5px;
+    height: 22px;
+    width: 22px;
+    border-radius: 40px;
+    background-color: #132B50;
+    transition: 500ms left;
+
+
+}
+
+#checkbox {
+    display: none;
+}
+
+.sign-status input:checked+.checkbox {
+    background-color: #132B50;
+
+}
+
+.sign-status input:checked+.checkbox .check-btn {
+
+    position: absolute;
+    left: 25px;
+    background-color: white;
+
+
+}
+
+
+
+
+.reset-password {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: #132B50;
+    text-decoration: underline;
+    cursor: pointer;
+
+
+
+}
